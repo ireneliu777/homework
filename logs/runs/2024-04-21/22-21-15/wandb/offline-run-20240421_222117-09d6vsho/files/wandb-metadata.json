@@ -1,0 +1,45 @@
+{
+    "os": "macOS-14.1.2-arm64-arm-64bit",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-04-21T14:21:18.007696",
+    "startedAt": "2024-04-21T14:21:17.984435",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "experiment=train_mnist_gan.yaml",
+        "trainer.gpus=0"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePathLocal": null,
+    "host": "ENYULIU-MB0",
+    "username": "enyuliu",
+    "executable": "/opt/miniconda3/envs/pantheon-py38/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 3228,
+        "min": 600,
+        "max": 3228
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3228,
+            "min": 600,
+            "max": 3228
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 926.3517189025879,
+            "used": 13.447807312011719
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}
